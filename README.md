@@ -34,9 +34,7 @@ Harbor9 Appartment Page <https://harbor9.github.io/>
 ```shell
   # Actually any npm should work here
   nvm use v10.16.3
-  # Optional if not already installed
-  npm install -g browser-sync
-  browser-sync --server . --files . --no-ui --no-notify
+  npx browser-sync --server . --files . --no-ui --no-notify
 ```
 
 ## Deployment
